@@ -32,6 +32,7 @@ INSTALLED_APPS = [
 ]
 
 CORS_ORIGIN_ALLOW_ALL = True
+DISABLE_COLLECTSTATIC=1
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
